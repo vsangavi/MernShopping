@@ -11,7 +11,7 @@ import Cart from './components/Cart';
 import  Nav from './components/Nav';
 import Default from './components/Default';
 import Details from './components/Details';
-
+import Home from './components/Home';
 class App extends Component{
   constructor(props){
     super(props);
@@ -28,9 +28,10 @@ class App extends Component{
   <Switch>
           <Route exact path='/'  component={Login}/>
           <Route path='/register' component={Register}/>
-          
-          <Route path='/product' component={Productlist}/>
+          <Route path='/product'component={Product}/>
+          <Route path='/productlist' component={Productlist}/>
           <Route path='/cart' component={Cart}/>
+          <Route path='/home' component={Home}/>
           <Route path='/details' component={Details}/>
           <Route  component={Default}/>
     </Switch>
