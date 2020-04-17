@@ -10,9 +10,7 @@ class Product extends Component {
     console.log(this.state.products);
     return (
       <div>
-        <img src={Image}
-         alt="hai">
-         </img>
+        
        <div><Link to='/cart'><button>Add to cart</button></Link> <Link to='/cart'><button>Add to wishlist</button></Link>
        </div> 
       </div>
