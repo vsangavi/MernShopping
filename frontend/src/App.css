@@ -47,7 +47,7 @@ input.error {
 
 button {
   padding: 10px 15px;
-  background-color: rgb(70, 88, 179);
+  background-color: rgb(70, 88,179);
   color: white;
   border: 1px solid rgb(70, 88, 179);
   background-color: 250ms;
@@ -56,5 +56,5 @@ button {
 button:hover {
   cursor: pointer;
   background-color: white;
-  color: rgb(70, 88, 179);
+  color: rgb(57, 37, 206);
 }

@@ -1,3 +1,4 @@
+const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const Userschema=new Schema({
   email:{
@@ -11,4 +12,4 @@ const Userschema=new Schema({
   }
 });
 const User=mongoose.model("User",Userschema);
-module.exports.User=User;
+module.exports=User;
