@@ -4,7 +4,7 @@
 
 h1 {
   text-align: center;
-  color: rgb(70, 88,179);
+  color: rgb(63, 206, 84);
 }
 
 form {
@@ -21,12 +21,18 @@ input {
   display: block;
   width: 100%;
 }
-
 label {
   margin-bottom: 5px;
   height: 22px;
 }
-
+.back{
+  background-color:rgb(234, 240, 241);
+  height:100vh
+}
+body{
+  background-color:rgb(17, 161, 209);
+  height: 100vh; 
+}
 input {
   margin-bottom: 20px;
   padding: 10px;
@@ -47,14 +53,14 @@ input.error {
 
 button {
   padding: 10px 15px;
-  background-color: rgb(70, 88,179);
+  background-color:#4658b3;
   color: white;
-  border: 1px solid rgb(70, 88, 179);
+  border: 1px solid #4658b3;
   background-color: 250ms;
 }
 
 button:hover {
   cursor: pointer;
   background-color: white;
-  color: rgb(57, 37, 206);
+  color: rgb(57, 37, 206)
 }

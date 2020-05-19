@@ -23,10 +23,10 @@ class App extends Component{
     return( 
 
 <React.Fragment>
- 
+ <div className="back" >
 <Nav/>
   <Switch>
-          <Route exact path='/'  component={Login}/>
+          <Route exact path='/'  component={Login} />
           <Route path='/register' component={Register}/>
           <Route path='/product'component={Product}/>
           <Route path='/productlist' component={Productlist}/>
@@ -35,7 +35,7 @@ class App extends Component{
           <Route path='/details' component={Details}/>
           <Route  component={Default}/>
     </Switch>
-    
+    </div> 
 </React.Fragment>
 
 
@@ -47,16 +47,7 @@ class App extends Component{
 
 
 
-      /*<Router>
-      <div className="App">
-        <Switch>
-          <Route path='/' exact component={Login}/>
-          <Route path='/register' component={Register}/>
-
-        </Switch>
-       
-      </div>
-      </Router>*/
+      
     )
   }
 }

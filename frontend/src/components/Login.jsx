@@ -5,14 +5,17 @@ import {Link} from 'react-router-dom';
 //import {fomik} from 'formik';
 //import * as Emailvalidator from 'email-validator';
 //import * as Yup from 'yup';
+import'../Styles/login.css';
 class Login extends Component{
   
+  
     constructor(props) {
-
+     
       super(props);
       this.state = {
         email:'',
         password:'',
+        
       };
     }
     handleemail= (event) =>{
@@ -35,7 +38,8 @@ class Login extends Component{
     }
   render(){
     return(
-    <div>
+     
+    <div> 
       <br/><br/>
         <h1>LOGIN</h1>
         <form onSubmit={this.handlesubmit}>
@@ -60,13 +64,14 @@ class Login extends Component{
            </div>
            <center><button type="submit">Submit</button>
            <Link to='/register'>
-             <h4>New user?Sign Up</h4>
+             <h5>New user?Sign Up</h5>
            </Link>
            </center>
          </div>
       </form>
       
      </div> 
+     
  
     )
     }

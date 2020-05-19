@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from "../productimg/image1.jpg"
+//import Image from "../productimg/image1.jpg"
 import { Link } from 'react-router-dom';
 import {data} from"../data/products";
 class Product extends Component {
